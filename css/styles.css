@@ -61,7 +61,7 @@
 }
 
 /* Ipads/smaller screened devices */
-@media screen and (max-width: 1280px) {  
+@media screen and (max-width: 1700px) {  
     .landing-page .info h1 {
         font-size: 40px;
     }
