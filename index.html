@@ -34,7 +34,30 @@
 	        <div class="form-group">
 	          <input type="email" class="form-control centerBlock" aria-describedby="emailHelp" placeholder="Email Address">
 	        </div>
-	        <button type="submit" class="centerBlock">Subscribe</button>
+	        <!-- <button type="submit" class="centerBlock">Subscribe</button> -->
+<!-- Button trigger modal -->
+          <button type="button" class="centerBlock subscribe" data-toggle="modal" data-target="#subscribeModalCenter">
+            Subscribe
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="subscribeModalCenter" tabindex="-1" role="dialog" aria-labelledby="subscribeModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="modal-title" id="exampleModalLongTitle">
+                    <h2 style="display:inline-block;">✔️</h2><h2 class="notify" style="display:inline-block;">&nbsp;Subscribed!</h2>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h5>Thank you for subscribing to our GPS Tracking. We hope to see you around!</h5>
+                </div>
+              </div>
+            </div>
+          </div>
 	      </form>
 	    </div>
 	  </div>
