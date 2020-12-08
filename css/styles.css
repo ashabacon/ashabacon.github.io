@@ -1,10 +1,10 @@
 
-html,body { height:100%; }
 
 /* Start Landing Page */
-.landing-page {
+html, body {
     position: relative;
     background-color: rgb(219, 212, 187);
+    height:100%; 
 }
 
 .landing-page .logo {
@@ -57,6 +57,11 @@ html,body { height:100%; }
     display: none;
 }
 
+.landing-page .phone_pic {
+    margin-top: -170px;
+    padding-left: 50px;
+}
+
 .clearfix {
     clear: both;
 }
@@ -91,12 +96,20 @@ html,body { height:100%; }
 
 /* Ipads/smaller screened devices */
 @media screen and (max-width: 1700px) {  
+    .landing-page .logo {
+        max-height: 230px;
+    }
+
     .landing-page .info h1 {
         font-size: 50px;
     }
 
     .landing-page .info p {
         font-size: 25px;
+    }
+
+    .landing-page .phone_pic {
+        margin-top: -140px
     }
 }
 
