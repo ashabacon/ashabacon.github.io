@@ -9,7 +9,7 @@ html, body {
 
 .landing-page .logo {
     margin-top: 50px;
-    max-height: 270px;
+    max-height: 250px;
 }
 
 .landing-page .info {
@@ -97,7 +97,7 @@ html, body {
 /* Ipads/smaller screened devices */
 @media screen and (max-width: 1700px) {  
     .landing-page .logo {
-        max-height: 230px;
+        max-height: 220px;
     }
 
     .landing-page .info h1 {
