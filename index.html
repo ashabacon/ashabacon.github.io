@@ -16,22 +16,40 @@
 </head>
 
 <body>
-<script src="js/scripts.js"></script>
 <div class="landing-page">
-  <div class="container-fluid">
-    <div class="pos-f-t">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h4 class="text-white">Collapsed content</h4>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
+
+  <div class="pos-f-t">
+    <nav class="navbar navbar-custom">
+      <div class="container">
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler hamburger-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
+                aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="animated-icon"><span></span><span></span><span></span></div>
+        </button>
+
+        <a class="navbar-brand" href="#">GPS TRACKING</a>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent22">
+
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav>
-    </div>
+    </nav>
+  </div>
+  <div class="container-fluid">
   	<div class="row justify-content-md-center">
   	  <div class="col">
   	    <img src="images/1920_logo.png" alt="GPS Tracking Logo" style="min-height: 100px" class="centerBlock logo">
@@ -63,5 +81,7 @@
     </div>
   </div>
 </div>
+
+<script src="js/scripts.js"></script>
 </body>
 </html>
