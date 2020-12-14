@@ -106,98 +106,86 @@ html, body {
   text-align: center;
 }
 
-/* Ipads/smaller screened devices */
-@media screen and (max-width: 1700px) {  
-    .landing-page .logo {
-        max-height: 220px;
-    }
 
-    .landing-page .info h1 {
-        font-size: 50px;
-    }
 
-    .landing-page .info p {
-        font-size: 25px;
-    }
 
-    .landing-page .phone_pic {
-        margin-top: -140px
-    }
-}
 
-/* Mobile devices */
-@media screen and (max-width: 767px) {  
-    .landing-page .logo {
-        max-height: 150px;
-    }
-
-    .landing-page .info {
-        max-width: 100%;
-        margin-top: 20px;
-        float: none;
-    }
-
-    .landing-page .info h1 {
-        font-size: 32px;
-        margin: 0 0 20px;
-        text-align: center;
-    }
-
-    .landing-page .info p {
-        margin-bottom: 20px;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .landing-page .truck {
-        margin-bottom: 20px;
-        display: block !important;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .landing-page .phone_pic {
-        display: none;
-    }
-
-    .landing-page .info .form-control {
-        height: 40px;
-    }
-}
 
 /* Navbar */
+.navbar .row {
+    width: 100%;
+}
+
+.animated-icon span {
+    background-color: #f3b31c !important;
+}
+
+.navbar .logo_pic {
+    width: 70px;
+    height: 70px;
+    margin-left: 44%;
+    margin-right: 56%;
+    margin-bottom: -120px;
+}
 
 .navbar-custom {
-  min-height: 80px;
-  background-color: rgb(0, 115, 132);
-  font-family: 'Bai Jamjuree', sans-serif;
+    min-height: 80px;
+    background-color: rgb(0, 115, 132);
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 .navbar-custom .navbar-brand {
     font-size: 40px;
     font-weight: 700;
+    text-align: right;
 }
 
 .navbar-custom .nav-link {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
-/*.navbar-custom a {
-  color: #f3b31c;
-}*/
+.navbar-custom ul li {
+    background-color: #fbd37b;
+}
 
-.navbar-custom a:not(:hover), .navbar-custom .navbar-nav a:not(:hover) {
+.navbar-custom ul li:last-child {
+    padding-bottom: 30px;
+}
+
+.navbar-custom ul li a {
+    border-bottom: 2px solid #000;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-custom .navbar-nav li:nth-child(1){
+    padding-top: 50px;
+}
+
+.navbar-custom a:not(:hover) {
   color: #f3b31c;
 }
 
+.navbar-custom .navbar-nav a:not(:hover) {
+    color: #000;
+}
+
+.navbar-custom .navbar-nav a {
+    text-align: center;
+}
 
 .navbar-custom a:hover {
   color: #fff;
 }
-/*.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
-    color: #000;
-}*/
+
+.navbar-custom .navbar-nav {
+    margin-bottom: 30px
+}
+
 
 .navbar-custom .navbar-nav > .active > a, .navbar-custom .navbar-nav > .active >
         a:hover, .navbar-custom .navbar-nav > .active > a:focus {
@@ -205,19 +193,19 @@ html, body {
 }
 
 .animated-icon {
-width: 30px;
-height: 20px;
-position: relative;
-margin: 0px;
--webkit-transform: rotate(0deg);
--moz-transform: rotate(0deg);
--o-transform: rotate(0deg);
-transform: rotate(0deg);
--webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
-cursor: pointer;
+    margin: 50%;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
 }
 
 .animated-icon span {
@@ -287,4 +275,72 @@ opacity: 0;
 transform: rotate(-45deg);
 top: 21px;
 left: 8px;
+}
+
+
+/* Ipads/smaller screened devices */
+@media screen and (max-width: 1700px) {  
+    .landing-page .logo {
+        max-height: 220px;
+    }
+
+    .landing-page .info h1 {
+        font-size: 50px;
+    }
+
+    .landing-page .info p {
+        font-size: 25px;
+    }
+
+    .landing-page .phone_pic {
+        margin-top: -140px
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+    .navbar .logo_pic {
+        width: 70px;
+        height: 70px;
+        margin-left: 43%;
+        margin-right: 57%;
+        margin-bottom: 0px;
+    }
+
+    .landing-page .logo {
+        max-height: 150px;
+    }
+
+    .landing-page .info {
+        max-width: 100%;
+        margin-top: 20px;
+        float: none;
+    }
+
+    .landing-page .info h1 {
+        font-size: 32px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    .landing-page .info p {
+        margin-bottom: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .landing-page .truck {
+        margin-bottom: 20px;
+        display: block !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .landing-page .phone_pic {
+        display: none;
+    }
+
+    .landing-page .info .form-control {
+        height: 40px;
+    }
 }
