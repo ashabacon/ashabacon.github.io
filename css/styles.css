@@ -293,6 +293,7 @@ footer a {
 footer .btn {
     background-color: #be682c;
     width: 100%;
+    max-width: 400px;
 }
 
 /*.footer-icons {
