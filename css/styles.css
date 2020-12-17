@@ -290,10 +290,16 @@ footer a {
     text-transform: uppercase;
 }
 
+footer ul a {
+    font-size: 20px;
+}
+
 footer .btn {
     background-color: #be682c;
     width: 100%;
     max-width: 400px;
+    font-size: 20px;
+    border: none;
 }
 
 /*.footer-icons {
