@@ -121,8 +121,8 @@ html, body {
 }
 
 .navbar .logo_pic {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin-left: 44%;
     margin-right: 56%;
     margin-bottom: -100px;
@@ -153,12 +153,12 @@ html, body {
 
 .navbar-custom .last-nav li {
     background-color: #1db5b1;
-    text-decoration: underline;
-    color: #fbd37b;
+    padding: 10px 0 10px 0;
 }
 
-.navbar-custom .last-nav a:not(:hover) {
+.navbar-custom .last-nav a:hover {
     color: #fbd37b;
+    text-decoration: underline;
 }
 
 .navbar-custom .main-nav li:not(:last-child) a {
@@ -177,7 +177,7 @@ html, body {
   color: #f3b31c;
 }
 
-.navbar-custom .main-nav a:not(:hover) {
+.navbar-custom ul a:not(:hover) {
     color: #000;
 }
 
@@ -282,6 +282,7 @@ left: 8px;
 
 footer {
     background-color: rgb(0, 115, 132);
+    font-family: 'Oswald', sans-serif;
 }
 
 footer a {
