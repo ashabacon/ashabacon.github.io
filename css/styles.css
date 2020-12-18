@@ -294,12 +294,41 @@ footer ul a {
     font-size: 20px;
 }
 
+footer .col-md-2.mb-md-0.mb-3 {
+    border-left: 2px solid #f3b31c;
+}
+
+footer .last-col {
+    color: #fff;
+}
+
+footer .last-col h5 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
 footer .btn {
     background-color: #be682c;
     width: 100%;
-    max-width: 400px;
+    /*max-width: 400px;*/
     font-size: 20px;
     border: none;
+}
+
+footer .btn.btn-info.activate {
+    margin-bottom: 25px;
+}
+
+footer .subs .form-control {
+    margin-bottom: 25px;
+    height: 45px;
+}
+
+footer .subs span .btn {
+    color: #fff;
+    min-height: 45px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 /*.footer-icons {
