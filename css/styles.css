@@ -116,6 +116,11 @@ html, body {
     width: 100%;
 }
 
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
 .animated-icon span {
     background-color: #f3b31c !important;
 }
