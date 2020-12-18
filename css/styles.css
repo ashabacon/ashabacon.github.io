@@ -288,6 +288,9 @@ left: 8px;
 footer {
     background-color: rgb(0, 115, 132);
     font-family: 'Oswald', sans-serif;
+    width: 100%;
+    background-image: url('http://gpstracking.wpengine.com/wp-content/uploads/2020/12/footer-pattern-1.png');
+    background-size: 100% 100%;
 }
 
 footer a {
