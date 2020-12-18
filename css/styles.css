@@ -7,7 +7,21 @@ html, body {
     height:100%; 
 }
 
-.landing-page .logo {
+.landing-page {
+    width: 100%;
+    background-image: url('http://gpstracking.wpengine.com/wp-content/uploads/2020/12/map-graphic.png');
+    background-color: #fff;
+    background-size: 100% 100%;
+    height: 600px;
+}
+
+.landing-page img {
+    top: 400px;
+    left: 0px;
+    position: absolute;
+}
+
+/*.landing-page .logo {
     margin-top: 50px;
     max-height: 250px;
 }
@@ -76,7 +90,7 @@ html, body {
 
 .clearfix {
     clear: both;
-}
+}*/
 
 .centerBlock {
     display: block;
