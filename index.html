@@ -25,11 +25,14 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-4">
-            <!-- Collapse button -->
-            <button class="navbar-toggler hamburger-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
-                    aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
-              <div class="animated-icon"><span></span><span></span><span></span></div>
-            </button>
+            <span>
+              <!-- Collapse button -->
+              <button class="navbar-toggler hamburger-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
+                      aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon"><span></span><span></span><span></span></div>
+              </button>
+            <!--   <img src="http://gpstracking.wpengine.com/wp-content/uploads/2020/12/gps_search.png" alt="search" style="max-height: 20px;"> -->
+            </span>
           </div>
           <div class="col-sm-4">
             <img src="http://gpstracking.wpengine.com/wp-content/uploads/2020/12/GPST-icon-100x100-1.png" class="logo_pic">
@@ -69,46 +72,106 @@
               <a class="nav-link" href="#">Store</a>
             </li>
           </ul>
-          <ul class="navbar-nav mr-auto last-nav">
+<!--           <ul class="navbar-nav mr-auto last-nav">
             <li class="nav-item">
               <a class="nav-link" href="#">Activate device</a>
             </li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </nav>
   </div>
   <div class="container-fluid landing-page">
-<!--   	<div class="row justify-content-md-center">
-  	  <div class="col">
-  	    <img src="images/1920_logo.png" alt="GPS Tracking Logo" style="min-height: 100px" class="centerBlock logo">
-  	  </div>
-  	</div>
-    <div class="row">
-      <div class="col-md-5">
-        <div class="info">
-          <h1 class="centerBlock">Coming Soon: Powerful new GPS trackers for small to mid-size fleets.</h1>
-          <img class="truck" src="https://www.gpstracking.com/wp-content/uploads/2020/11/truck.png" alt="GPS Tracking Logo" style="max-height: 300px">
-          <p class="centerBlock">Please join our list for the latest product launch information.</p>
-          <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E90561956F97F6852FE55811BD915B2538B68155011978AF5F823DD4245E6F424748A11439100ED84DB4631321A8476B79C3ACB">
-            <div class="form-group">
-              <input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email form-control centerBlock" id="fieldEmail" maxlength="200" name="cm-yuzldu-yuzldu" required="" type="email" c aria-describedby="emailHelp" placeholder="Email Address">
-            </div>
-            <button type="submit" class="centerBlock subscribe" data-toggle="modal" data-target="#subscribeModalCenter">
-              Subscribe
-            </button>
-          </form>
-          <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
-        </div>
-      </div>
-      <div class="col-md-7">
-        <div class="image">
-          <img class="phone_pic" src="images/cropped_phone.png" alt="Cropped Phone Image" style="width: 100%;">
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </div> -->
     <img src='http://gpstracking.wpengine.com/wp-content/uploads/2020/12/Plumbing-Truck-1.png' alt="truck" style="height: 200px;">
+  </div>
+
+  <!-- Carousel  -->
+  <div class="container-fluid carousel-section">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active carousel-item">
+          <!-- <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide"> -->
+          <div class="container">
+            <div class="carousel-caption text-left">
+  <!--             <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div> -->
+      <div class="col-md-4" style="float:left">
+        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Info card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" style="float:left">
+        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Info card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" style="float:left">
+        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Info card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+            
+        <div class="carousel-item carousel-item">
+          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h3 class="card-title">Lorem ipsum dolor sit amet</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
 
   <!-- Footer -->
@@ -118,13 +181,13 @@
     <div class="container-fluid text-center text-md-left">
 
       <!-- Grid row -->
-      <div class="row">
+      <div class="row footer-content">
 
         <!-- Grid column -->
         <div class="col-md-5 mt-md-0 mt-3">
 
           <!-- Content -->
-          <img class="centerBlock" src="http://gpstracking.wpengine.com/wp-content/uploads/2020/12/GPST_logo_center_Gold_TM.png" alt="Logo" style="width: 80%">
+          <img class="centerBlock" src="http://gpstracking.wpengine.com/wp-content/uploads/2020/12/GPST_logo_center_Gold_TM.png" alt="Logo" style="width: 75%">
 
         </div>
         <!-- Grid column -->
@@ -176,14 +239,14 @@
 
           <!-- Links -->
           <a href="#" class="btn btn-info activate" role="button">activate your device</a>
-          <h5>don't miss a thing</h5>
+          <h3>don't miss a thing</h3>
           <div class="input-group subs">
             <input type="email" class="form-control" placeholder="Email Address">
             <span class="input-group-btn">
               <button class="btn" type="submit">Subscribe</button>
             </span>
           </div>
-          <h5>download our app</h5>
+          <h3>download our app</h3>
           <span class="footer-icons">
             <img src="http://gpstracking.wpengine.com/wp-content/uploads/2020/12/favpng_app-store-google-play-e1608279524471.png" style="display: inline-block; height: 50px;">
             <img src="http://gpstracking.wpengine.com/wp-content/uploads/2020/12/favpng_google-play-android-app-store-e1608279401355.png" style="display: inline-block; height: 50px;">
