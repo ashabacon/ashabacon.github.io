@@ -135,6 +135,24 @@ html, body {
   transition: background-color 200ms linear;
 }
 
+.fixed-top.scrolled .logo-closed {
+    display: none;
+}
+
+.fixed-top.scrolled .logo-scroll {
+    display: block !important;
+    height: 60px;
+    margin: 15px;
+}
+
+.navbar .logo-scroll {
+    display: none;
+}
+
+.navbar button {
+    background: none !important;
+}
+
 .animated-icon span {
     background-color: #f3b31c !important;
 }
@@ -335,6 +353,7 @@ footer .btn {
     /*max-width: 400px;*/
     font-size: 20px;
     border: none;
+    padding: 10px;
 }
 
 footer .btn.btn-info.activate {
@@ -343,12 +362,12 @@ footer .btn.btn-info.activate {
 
 footer .subs .form-control {
     margin-bottom: 25px;
-    height: 45px;
+    height: 50px;
 }
 
 footer .subs span .btn {
     color: #fff;
-    min-height: 45px;
+    min-height: 50px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
 }
